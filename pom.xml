@@ -21,11 +21,10 @@
   </properties>
 
     <scm>
-      <url>https://github.com/skltp-aggregerandetjanster/riv.clinicalprocess.logistics.logistics.GetAggregatedCareContacts</url>
-      <connection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.logistics.logistics.GetAggregatedCareContacts.git</connection>
-      <developerConnection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.logistics.logistics.GetAggregatedCareContacts.git</developerConnection>
+      <url>https://github.com/skltp-aggregerandetjanster/riv.clinicalprocess.logistics.logistics.GetAggregatedCareContacts.v3</url>
+      <connection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.logistics.logistics.GetAggregatedCareContacts.v3.git</connection>
+      <developerConnection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.logistics.logistics.GetAggregatedCareContacts.v3.git</developerConnection>
       <tag>HEAD</tag>
-
   	</scm>
 
   <modules>  <module>GetAggregatedCareContacts-v3-schemas</module>
