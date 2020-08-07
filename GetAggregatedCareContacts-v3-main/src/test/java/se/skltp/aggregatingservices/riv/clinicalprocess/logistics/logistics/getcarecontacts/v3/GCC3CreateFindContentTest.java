@@ -1,6 +1,5 @@
 package se.skltp.aggregatingservices.riv.clinicalprocess.logistics.logistics.getcarecontacts.v3;
 
-import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import riv.clinicalprocess.logistics.logistics.getcarecontactsresponder.v3.GetCareContactsResponseType;
@@ -18,13 +17,4 @@ public class GCC3CreateFindContentTest extends CreateFindContentTest {
   public GCC3CreateFindContentTest() {
     super(testDataGenerator, agpServiceFactory, configuration);
   }
-
-  @BeforeClass
-  public static void before() {
-    configuration = new GCC3AgpServiceConfiguration();
-    agpServiceFactory = new GCC3AgpServiceFactoryImpl();
-    agpServiceFactory.setAgpServiceConfiguration(configuration);
-  }
-
-
 }
